@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background-image: url('../images/yellow.jpg');
+	/*border: 1px solid orange;*/
+}
+.heading{
+	background-color:rgba(105,105,105,0.95);
+}
+header::after{
+		content:" ";
+		display: table;
+		clear: both;
+}
+img{
+	float: left;
+	padding-left:50px;
+	height: 100%;
+}
+.nav ul li{
+	display: inline-block;
+	float: right;
+	 margin-top: 30px;
+}
+li a{
+	text-decoration: none;
+	font-size:25px;
+	font-family: 'Josefin Slab', serif;
+	color:black;
+	padding: 30px;
+	padding-right: 40px;
+	/*border-left: 1px solid black;*/
+}
+.nav ul li a:hover{
+	color:white;
+	background-color: black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+section{
+	/*background: rgba(105,105,105,0.88);*/
+	background: rgba(105,105,105,0.88);
+	width: 60%;
+	height: 30%;
+	margin: 60px;
+	padding-bottom: 10%;
+	padding-right:0px;
+	padding-left: 60px;
+	margin-left: 265px;
+	margin-right: 235px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+section .img img{
+	border-radius: 200%;
+	padding: 70px;
+	margin: 60px;
+	margin-left: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	transition:250ms;
+
+}
+.img{
+		margin-bottom: 0px;
+}
+section .img img:hover{
+		transform: scale(1.5);
+}
+section div::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.para{
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 40px;
+	margin-bottom: 0px;
+	font-family: 'PT Mono', monospace;
+}
+.para p{
+	font-size: 30px;
+	color: white;
+}
+/*=============================================================================================================*/
+.aboutme p{
+	font-size:50px;
+	color:rgb(255,240,245);
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-right: 60px;
+	font-family:'PT Mono', monospace;
+}
+.img2 img{
+	width: 20%;
+	height: 30%;
+	margin-top: 60px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	border-radius: 12%;
+}
+.para2 p{
+		font-size: 30px;
+		font-family: 'Sawarabi Mincho', sans-serif;
+		margin: 20px;
+		margin-top: 40px;
+		padding-left: 30px;
+		padding-top: 10px;
+		margin-left: 60px;
+		margin-right: 40px;
+		color:rgb(176,224,230);
+
+}
+/*============================================================================================================*/
+.academics{
+		font-size:50px;
+	color:rgb(255,240,245);
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-right: 60px;
+	font-family:'PT Mono', monospace;
+}
+.para3 p{
+		font-size: 30px;
+		font-family: 'Sawarabi Mincho', sans-serif;
+		margin: 20px;
+		margin-top: 40px;
+		padding-left: 0px;
+		padding-top: 10px;
+		margin-left: 30px;
+		margin-right: 40px;
+		color:rgb(176,224,230);
+}
+/*===========================================================================================================*/
+.hobbies{
+	font-size:50px;
+	color:rgb(255,240,245);
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-right: 60px;
+	font-family:'PT Mono', monospace;
+}
+
+.para4 li{
+		font-size: 30px;
+		font-family: 'Sawarabi Mincho', sans-serif;
+		margin: 20px;
+		margin-top: 40px;
+		padding-left: 10px;
+		padding-top: 10px;
+		margin-left: 30px;
+		margin-right: 40px;
+		color:rgb(176,224,230);
+}
+/*.para4 li:hover{
+	margin-left: 60px;
+	transform: scale(1.1);
+}*/
+/*===========================================================================================================*/
+.contacts{
+	font-size:50px;
+	color:rgb(255,240,245);
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-right: 60px;
+	font-family:'PT Mono', monospace;
+}
+.img3{
+	margin: 30px;
+}
+
+.para5 p{
+		font-size:20px;
+		color:rgb(255,240,245);
+		padding-top: 20px;
+		padding-left: 40px;
+		margin-right: 60px;
+		font-family:'PT Mono', monospace;
+		float: left;
+}
+.text2{
+	margin-bottom: 20px;
+}
+.para5 p:hover{
+	color: rgb(30,144,255);
+}
+.para6{
+	padding-right: 350px;
+	float: right;
+}
+.para6 img:hover{
+	margin-left:0px ; 
+		float: left;
+		transform: scale(1.2);
+}
+.para7 img:hover{
+		transform: scale(1.2);
+}
+footer{
+	background: white;
+	padding: 10px;
+	padding-left: 43%;
+	margin-bottom: 20px;
+}
+/*=====================================THE END=====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
